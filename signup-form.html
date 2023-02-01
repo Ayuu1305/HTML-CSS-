@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Signup Form</title>
+    
+    <style>
+
+       body{
+        background-image: url("img1.webp");
+        background-size: cover;
+        background-position:center;
+        background-attachment: fixed;
+        
+       }
+        form{
+            
+            height: auto;
+            width: 50%;
+            padding-top: 5%;
+            margin-left: 37%;
+        }
+       
+        label , input{
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            
+            color: rgb(245, 0, 0);
+
+        }
+        label{
+            text-shadow: rgb(0, 0, 0) 4px 4px 10px;
+        }
+        input{
+            border-radius: 15px;
+            border: 0px;
+        }
+        input:hover{
+            background-color: rgb(135, 197, 197);
+        }
+       
+        textarea{
+            border-radius: 10px;
+            
+        }
+
+        h1{
+            color: rgb(0, 0, 0);
+            -webkit-text-stroke: 0.8px white;
+           text-align: center;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .g1,.g2{
+            margin-left: 10%;
+        }
+    </style>
+</head>
+<body>
+
+    <h1> Signup form </h1><br><hr>
+  <form action="https://www.hyatt.com/search/India?&src=pfxswain_sem_pfx_search_google_india_rooms_br_Parent_eng__hyatt%20hotels&mckv=s-dc_pcrid_641486422283_mtid_529dkt13792&gclid=CjwKCAiAleOeBhBdEiwAfgmXf1v4CnYsCKQr1NH_Z4jjcjdNxA6aQd2C9fkUJWsfu0qDblr3d5KdSRoCCZ8QAvD_BwE&gclsrc=aw.ds">
+
+
+    <label>  First Name :-  </label>
+    <input type="text" name="first-name" size="20"><br><br><br><br>
+   
+    <label>  Last Name :- </label>
+    <input type="text" name="last-name" size="20"><br><br><br><br>
+
+    <label>  Email :- </label>
+    <input type="email" name="email" size="20"><br><br><br><br>
+
+    <label>  Phone-no :-  </label>
+    <input type="text" name="mobile-no" size="10"><br><br><br><br>
+
+        <input type="submit" value="Submit" onclick="alert('form is submitted')" class="g1">
+        <input type="reset" value="Cancel" class="g2">
+
+  </form>
+
+
+</body>
+</html>
